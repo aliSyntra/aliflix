@@ -52,11 +52,6 @@ Route::post('/favorite', [FavoriteController::class, 'addFavorite']);
 //     $movies = json_decode($movies);
 //     return view('movie', compact('movies'));
 // });
-
-
-
-
-
 // Route::post('/movies'){
 //     $search = Request->input ('search')
 //     $movie= Http::get('https://www.omdbapi.com/?apikey=6aba605c&s=.$search');
